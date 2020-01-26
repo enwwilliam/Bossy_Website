@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body
+        {
+            background:rgb(red, green, rgba(238, 235, 235, 0.288))
+        }
+    
+    </style>
+
+</head>
+<body>
+    <script>
+        var1 = prompt("What is the first voltage?");
+        var2 =  prompt("What is the second voltage?");
+        var3 = prompt("What is the thrid voltage?");
+        
+        cal = var1 * var1 / 10 * 0.5;
+        cal += var2 * var2 / 10 * 0.5;
+        cal += var3 * var3 / 10 * 0.5;
+
+        cal *= 0.239;
+        cal = cal.toFixed(4);
+
+        alert("The total energy created is " + cal + " calories" );
+        
+        
+        </script>
+
+</body>
+</html>
